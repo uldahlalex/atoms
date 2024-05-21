@@ -1,0 +1,37 @@
+{
+  "name": "uldahlalex-atoms",
+  "version": "1.0.0",
+  "description": "useful atoms building on top of jotai atoms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uldahlalex/atoms.git"
+  },
+  "keywords": [
+    "jotai",
+    "atoms",
+    "state",
+    "management"
+  ],
+  "author": "alex uldahl pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uldahlalex/atoms/issues"
+  },
+  "homepage": "https://github.com/uldahlalex/atoms#readme",
+  "dependencies": {
+    "jotai": "^2.8.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "typescript": "^5.4.5"
+  }
+}
